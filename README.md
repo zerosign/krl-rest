@@ -12,7 +12,7 @@ this library by simply add new repository to this github url, likes :
 	<repositories>
 		<repository>
 			<id>krl-rest</id>
-			<url>https://raw.github.com/zerosign/krl-rest/mvn-repo</url>
+			<url>https://raw.github.com/zerosign/krl-rest/repository</url>
 			<snapshots>
 				<enabled>true</enabled>
 				<updatePolicy>always</updatePolicy>
@@ -23,7 +23,7 @@ this library by simply add new repository to this github url, likes :
 Or probably you can just see the guides in [maven-plugins](https://github.com/github/maven-plugins).
 
 For embedding this library using android you can either build it locally
-or just use it build snapshots in [here](https://github.com/zerosign/krl-rest)(not yet).
+or just use it build snapshots in [here](https://github.com/zerosign/krl-rest/tree/repository/org/zerosign/krl-rest/1.0).
 
 This library are means to be minimalist library. this library only uses
 gson library for serialization and deserialization of JsonObject (but 
